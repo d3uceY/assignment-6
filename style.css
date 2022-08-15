@@ -1,0 +1,105 @@
+/* Dark cyan: hsl(158, 36%, 37%)
+- Cream: hsl(30, 38%, 92%)
+
+### Neutral
+
+- Very dark blue: hsl(212, 21%, 14%)
+- Dark grayish blue: hsl(228, 12%, 48%)
+- White: hsl(0, 0%, 100%) */
+
+*{
+    margin: 0px;
+    border: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 14px;  
+    font-family: "montserrat", sans-serif; 
+    background-color: hsl(30, 38%, 92%);
+    display: grid;
+    place-items:  center;
+    /* display: flex;
+    text-align: center;
+    justify-content: center; */
+    max-height: 100vh;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+
+}
+
+ul{
+   list-style-type: none;
+   display: flex;
+   text-align: center;
+   margin-bottom: 2rem;
+}
+
+.container{
+    max-width: 100%;
+    margin: 60px;
+    max-width: 600px ;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+h1, .price {
+    font-family: 'fraunces', sans-serif;
+
+}
+
+img{
+    max-width: 100%;
+    border-radius: 15px 0 0 15px ;
+}
+
+h1{
+     color:hsl(212, 21%, 14%) ;
+     margin-bottom: 1rem;
+     font-size: 1rem;
+}
+
+.price{
+    color:  hsl(158, 36%, 37%);
+}
+
+h2{
+    margin-bottom: 1rem ;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: lighter;
+    color: hsl(228, 12%, 48%) ;
+}
+
+p{
+    color: hsl(228, 12%, 48%);
+    line-height: 1.8;
+    margin-bottom: 2rem;
+}
+
+.last-child{
+    background-color: white;
+    padding: 1.5rem;
+    margin-top: -3px;
+    border-radius: 0 15px 15px 0;
+}
+
+.first-list{
+    text-align: unset;
+    font-size: 1.5rem;
+    margin-left: -41px;
+}
+
+.second-list{
+    color:hsl(228, 12%, 48%) ;
+}
+
+.btn{
+    background-color:  hsl(158, 36%, 37%);
+    font-weight: 700 ;
+    width: 100%;
+    padding: 20px;
+    border: none;
+    border-radius: 15px;
+
+}
